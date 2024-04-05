@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-##☑️Description
->description
-##✅Progress
--[]todo1
--[]todo2
--[]todo3
+🟢Description
+===================
+<! -- Overall description -->
+✅Progress
+--------------------------
+< ! -- express to do lists -->
