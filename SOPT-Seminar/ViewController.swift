@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    final class LoginViewController_CustomView: UIViewController {
+        
+        private let rootView = LoginView()
+        
+        override func loadView() {
+            self.view = rootView
+        }
+     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .white
     }
-
-
+    
 }
-

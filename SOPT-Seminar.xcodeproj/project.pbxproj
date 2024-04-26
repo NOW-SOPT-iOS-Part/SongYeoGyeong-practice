@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C2C304C2BD3896F0000A765 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C304B2BD3896F0000A765 /* LoginView.swift */; };
 		5C453AA12BBD7FDC0058CCD2 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C453AA02BBD7FDC0058CCD2 /* Pretendard-Bold.otf */; };
+		5C78FABD2BDBA3AE00E8499C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FABC2BDBA3AE00E8499C /* ChatViewController.swift */; };
+		5C78FAC12BDBA42200E8499C /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FAC02BDBA42200E8499C /* ChatTableViewCell.swift */; };
+		5C78FAC32BDBAA5A00E8499C /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FAC22BDBAA5A00E8499C /* ItemCollectionViewCell.swift */; };
+		5C78FAC72BDBB09700E8499C /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FAC62BDBB09700E8499C /* ItemViewController.swift */; };
+		5C78FACB2BDBB3D900E8499C /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FACA2BDBB3D900E8499C /* ChatModel.swift */; };
+		5C78FACD2BDBB45C00E8499C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FACC2BDBB45C00E8499C /* ItemModel.swift */; };
 		5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */; };
 		5CBACC642BB7D7F00025ACDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */; };
 		5CBACC662BB7D7F00025ACDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC652BB7D7F00025ACDA /* ViewController.swift */; };
@@ -16,10 +23,26 @@
 		5CBACC6E2BB7D7F10025ACDA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5CBACC6D2BB7D7F10025ACDA /* Base */; };
 		5CBACC762BB7E4AA0025ACDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC752BB7E4AA0025ACDA /* LoginViewController.swift */; };
 		5CBACC782BB7E91C0025ACDA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC772BB7E91C0025ACDA /* WelcomeViewController.swift */; };
+		5CC762C92BD277FA0096B32E /* LoginViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762C82BD277FA0096B32E /* LoginViewController_DelegatePattern.swift */; };
+		5CC762CC2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762CB2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift */; };
+		5CC762D02BD27CF60096B32E /* LoginViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762CF2BD27CF60096B32E /* LoginViewController_Closure.swift */; };
+		5CC762D22BD27D0D0096B32E /* WelcomeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762D12BD27D0D0096B32E /* WelcomeViewController_Closure.swift */; };
+		5CC762D42BD2B11A0096B32E /* LoginViewController_Snapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762D32BD2B11A0096B32E /* LoginViewController_Snapkit.swift */; };
+		5CC762D62BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762D52BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift */; };
+		5CC762D92BD2B4240096B32E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CC762D82BD2B4240096B32E /* SnapKit */; };
+		5CC762DB2BD2B4240096B32E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5CC762DA2BD2B4240096B32E /* SnapKit-Dynamic */; };
+		5CC762DD2BD2C02D0096B32E /* LoginViewController_Tiving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC762DC2BD2C02D0096B32E /* LoginViewController_Tiving.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2C304B2BD3896F0000A765 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5C453AA02BBD7FDC0058CCD2 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		5C78FABC2BDBA3AE00E8499C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5C78FAC02BDBA42200E8499C /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		5C78FAC22BDBAA5A00E8499C /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C78FAC62BDBB09700E8499C /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		5C78FACA2BDBB3D900E8499C /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		5C78FACC2BDBB45C00E8499C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +53,13 @@
 		5CBACC6F2BB7D7F10025ACDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CBACC752BB7E4AA0025ACDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5CBACC772BB7E91C0025ACDA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5CC762C82BD277FA0096B32E /* LoginViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		5CC762CB2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_DelegatePattern.swift; sourceTree = "<group>"; };
+		5CC762CF2BD27CF60096B32E /* LoginViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Closure.swift; sourceTree = "<group>"; };
+		5CC762D12BD27D0D0096B32E /* WelcomeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_Closure.swift; sourceTree = "<group>"; };
+		5CC762D32BD2B11A0096B32E /* LoginViewController_Snapkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Snapkit.swift; sourceTree = "<group>"; };
+		5CC762D52BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController_SnapKit.swift; sourceTree = "<group>"; };
+		5CC762DC2BD2C02D0096B32E /* LoginViewController_Tiving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Tiving.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC762D92BD2B4240096B32E /* SnapKit in Frameworks */,
+				5CC762DB2BD2B4240096B32E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C2C30482BD387F60000A765 /* 3rd-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C304B2BD3896F0000A765 /* LoginView.swift */,
+				5C78FABC2BDBA3AE00E8499C /* ChatViewController.swift */,
+				5C78FAC02BDBA42200E8499C /* ChatTableViewCell.swift */,
+				5C78FAC22BDBAA5A00E8499C /* ItemCollectionViewCell.swift */,
+				5C78FAC62BDBB09700E8499C /* ItemViewController.swift */,
+				5C78FACA2BDBB3D900E8499C /* ChatModel.swift */,
+				5C78FACC2BDBB45C00E8499C /* ItemModel.swift */,
+			);
+			path = "3rd-Seminar";
+			sourceTree = "<group>";
+		};
 		5C453A9F2BBD7FB60058CCD2 /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +116,8 @@
 		5CBACC602BB7D7F00025ACDA /* SOPT-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				5C2C30482BD387F60000A765 /* 3rd-Seminar */,
+				5CC762C72BD277D00096B32E /* 2nd-Seminar */,
 				5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */,
 				5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */,
 				5CBACC652BB7D7F00025ACDA /* ViewController.swift */,
@@ -82,6 +130,20 @@
 				5CBACC772BB7E91C0025ACDA /* WelcomeViewController.swift */,
 			);
 			path = "SOPT-Seminar";
+			sourceTree = "<group>";
+		};
+		5CC762C72BD277D00096B32E /* 2nd-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				5CC762C82BD277FA0096B32E /* LoginViewController_DelegatePattern.swift */,
+				5CC762CB2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift */,
+				5CC762CF2BD27CF60096B32E /* LoginViewController_Closure.swift */,
+				5CC762D12BD27D0D0096B32E /* WelcomeViewController_Closure.swift */,
+				5CC762D32BD2B11A0096B32E /* LoginViewController_Snapkit.swift */,
+				5CC762D52BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift */,
+				5CC762DC2BD2C02D0096B32E /* LoginViewController_Tiving.swift */,
+			);
+			path = "2nd-Seminar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +162,10 @@
 			dependencies = (
 			);
 			name = "SOPT-Seminar";
+			packageProductDependencies = (
+				5CC762D82BD2B4240096B32E /* SnapKit */,
+				5CC762DA2BD2B4240096B32E /* SnapKit-Dynamic */,
+			);
 			productName = "SOPT-Seminar";
 			productReference = 5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 5CBACC552BB7D7F00025ACDA;
+			packageReferences = (
+				5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5CBACC5F2BB7D7F00025ACDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,10 +225,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC762D02BD27CF60096B32E /* LoginViewController_Closure.swift in Sources */,
 				5CBACC762BB7E4AA0025ACDA /* LoginViewController.swift in Sources */,
+				5C78FACD2BDBB45C00E8499C /* ItemModel.swift in Sources */,
 				5CBACC782BB7E91C0025ACDA /* WelcomeViewController.swift in Sources */,
+				5CC762D42BD2B11A0096B32E /* LoginViewController_Snapkit.swift in Sources */,
+				5C78FAC12BDBA42200E8499C /* ChatTableViewCell.swift in Sources */,
+				5CC762CC2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				5C78FAC32BDBAA5A00E8499C /* ItemCollectionViewCell.swift in Sources */,
+				5CC762D62BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift in Sources */,
+				5C78FAC72BDBB09700E8499C /* ItemViewController.swift in Sources */,
+				5CC762DD2BD2C02D0096B32E /* LoginViewController_Tiving.swift in Sources */,
+				5C2C304C2BD3896F0000A765 /* LoginView.swift in Sources */,
+				5CC762C92BD277FA0096B32E /* LoginViewController_DelegatePattern.swift in Sources */,
 				5CBACC662BB7D7F00025ACDA /* ViewController.swift in Sources */,
+				5C78FABD2BDBA3AE00E8499C /* ChatViewController.swift in Sources */,
+				5C78FACB2BDBB3D900E8499C /* ChatModel.swift in Sources */,
 				5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */,
+				5CC762D22BD27D0D0096B32E /* WelcomeViewController_Closure.swift in Sources */,
 				5CBACC642BB7D7F00025ACDA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +466,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CC762D82BD2B4240096B32E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		5CC762DA2BD2B4240096B32E /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CBACC562BB7D7F00025ACDA /* Project object */;
 }
