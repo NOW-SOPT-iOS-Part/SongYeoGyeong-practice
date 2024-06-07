@@ -29,6 +29,10 @@
 		5C78FAEB2BDCDE8A00E8499C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5C78FAEA2BDCDE8A00E8499C /* Moya */; };
 		5C869ECB2C01C78C007D9521 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5C869ECA2C01C78C007D9521 /* RxCocoa */; };
 		5C869ECD2C01C7BE007D9521 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C869ECC2C01C7BE007D9521 /* File.swift */; };
+		5CA73EBC2C13623400AB8372 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA73EBB2C13623400AB8372 /* ViewModelType.swift */; };
+		5CA73EBE2C13625500AB8372 /* LoginViewModel_RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA73EBD2C13625500AB8372 /* LoginViewModel_RX.swift */; };
+		5CA73EC02C1362A000AB8372 /* LoginViewController_Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA73EBF2C1362A000AB8372 /* LoginViewController_Rx.swift */; };
+		5CA73EC52C1363CE00AB8372 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA73EC42C1363CE00AB8372 /* Toast */; };
 		5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */; };
 		5CBACC642BB7D7F00025ACDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */; };
 		5CBACC662BB7D7F00025ACDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC652BB7D7F00025ACDA /* ViewController.swift */; };
@@ -68,6 +72,9 @@
 		5C78FAE22BDCCF0200E8499C /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
 		5C78FAE42BDCCF1900E8499C /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
 		5C869ECC2C01C7BE007D9521 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5CA73EBB2C13623400AB8372 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		5CA73EBD2C13625500AB8372 /* LoginViewModel_RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel_RX.swift; sourceTree = "<group>"; };
+		5CA73EBF2C1362A000AB8372 /* LoginViewController_Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_Rx.swift; sourceTree = "<group>"; };
 		5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA73EC52C1363CE00AB8372 /* Toast in Frameworks */,
 				5CC762D92BD2B4240096B32E /* SnapKit in Frameworks */,
 				5C78FAE82BDCCF5B00E8499C /* Then in Frameworks */,
 				5C869ECB2C01C78C007D9521 /* RxCocoa in Frameworks */,
@@ -142,6 +150,16 @@
 			path = "4th-Seminar";
 			sourceTree = "<group>";
 		};
+		5CA73EB82C1361CA00AB8372 /* 7th-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				5CA73EBB2C13623400AB8372 /* ViewModelType.swift */,
+				5CA73EBD2C13625500AB8372 /* LoginViewModel_RX.swift */,
+				5CA73EBF2C1362A000AB8372 /* LoginViewController_Rx.swift */,
+			);
+			path = "7th-Seminar";
+			sourceTree = "<group>";
+		};
 		5CBACC552BB7D7F00025ACDA = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +179,7 @@
 		5CBACC602BB7D7F00025ACDA /* SOPT-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				5CA73EB82C1361CA00AB8372 /* 7th-Seminar */,
 				5C78FAD12BDCC94000E8499C /* 4th-Seminar */,
 				5C2C30482BD387F60000A765 /* 3rd-Seminar */,
 				5CC762C72BD277D00096B32E /* 2nd-Seminar */,
@@ -215,6 +234,7 @@
 				5C78FAE72BDCCF5B00E8499C /* Then */,
 				5C78FAEA2BDCDE8A00E8499C /* Moya */,
 				5C869ECA2C01C78C007D9521 /* RxCocoa */,
+				5CA73EC42C1363CE00AB8372 /* Toast */,
 			);
 			productName = "SOPT-Seminar";
 			productReference = 5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */;
@@ -249,6 +269,7 @@
 				5C78FAE62BDCCF5B00E8499C /* XCRemoteSwiftPackageReference "Then" */,
 				5C78FAE92BDCDE8A00E8499C /* XCRemoteSwiftPackageReference "Moya" */,
 				5C869EC92C01C78C007D9521 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5CA73EC32C1363CE00AB8372 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
 			);
 			productRefGroup = 5CBACC5F2BB7D7F00025ACDA /* Products */;
 			projectDirPath = "";
@@ -291,9 +312,11 @@
 				5C78FAC12BDBA42200E8499C /* ChatTableViewCell.swift in Sources */,
 				5C78FAD52BDCCE1B00E8499C /* NetworkResult.swift in Sources */,
 				5CC762CC2BD2781A0096B32E /* WelcomeViewController_DelegatePattern.swift in Sources */,
+				5CA73EC02C1362A000AB8372 /* LoginViewController_Rx.swift in Sources */,
 				5C78FAC32BDBAA5A00E8499C /* ItemCollectionViewCell.swift in Sources */,
 				5CC762D62BD2B13E0096B32E /* WelcomeViewController_SnapKit.swift in Sources */,
 				5C78FAC72BDBB09700E8499C /* ItemViewController.swift in Sources */,
+				5CA73EBE2C13625500AB8372 /* LoginViewModel_RX.swift in Sources */,
 				5CC762DD2BD2C02D0096B32E /* LoginViewController_Tiving.swift in Sources */,
 				5C2C304C2BD3896F0000A765 /* LoginView.swift in Sources */,
 				5CC762C92BD277FA0096B32E /* LoginViewController_DelegatePattern.swift in Sources */,
@@ -305,6 +328,7 @@
 				5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */,
 				5C869ECD2C01C7BE007D9521 /* File.swift in Sources */,
 				5C78FAE32BDCCF0200E8499C /* CheckUserInfoViewController.swift in Sources */,
+				5CA73EBC2C13623400AB8372 /* ViewModelType.swift in Sources */,
 				5C78FAD92BDCCE6F00E8499C /* SignUpRequestModel.swift in Sources */,
 				5CC762D22BD27D0D0096B32E /* WelcomeViewController_Closure.swift in Sources */,
 				5CBACC642BB7D7F00025ACDA /* SceneDelegate.swift in Sources */,
@@ -558,6 +582,14 @@
 				minimumVersion = 6.7.1;
 			};
 		};
+		5CA73EC32C1363CE00AB8372 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
 		5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -583,6 +615,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5C869EC92C01C78C007D9521 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		5CA73EC42C1363CE00AB8372 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CA73EC32C1363CE00AB8372 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
 		};
 		5CC762D82BD2B4240096B32E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
