@@ -12,7 +12,6 @@ final class ChatTableViewCell: UITableViewCell {
     static let identifier = "ChatTableViewCell"
     
     private let profileImageView = UIImageView()
-    
     private let nameLabel: UILabel = {
         let label = UILabel()
         label.textColor = .black
