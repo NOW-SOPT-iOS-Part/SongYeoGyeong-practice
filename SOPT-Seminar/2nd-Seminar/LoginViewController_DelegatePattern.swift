@@ -70,6 +70,7 @@ final class LoginViewController_DelegatePattern: UIViewController {
             self.view.addSubview($0)
         }
     }
+    
 }
 
 extension LoginViewController_DelegatePattern: DataBindProtocol {

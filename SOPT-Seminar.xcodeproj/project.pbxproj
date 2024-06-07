@@ -27,6 +27,8 @@
 		5C78FAE52BDCCF1900E8499C /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C78FAE42BDCCF1900E8499C /* UserInfoResponseModel.swift */; };
 		5C78FAE82BDCCF5B00E8499C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 5C78FAE72BDCCF5B00E8499C /* Then */; };
 		5C78FAEB2BDCDE8A00E8499C /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 5C78FAEA2BDCDE8A00E8499C /* Moya */; };
+		5C869ECB2C01C78C007D9521 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5C869ECA2C01C78C007D9521 /* RxCocoa */; };
+		5C869ECD2C01C7BE007D9521 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C869ECC2C01C7BE007D9521 /* File.swift */; };
 		5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */; };
 		5CBACC642BB7D7F00025ACDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */; };
 		5CBACC662BB7D7F00025ACDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBACC652BB7D7F00025ACDA /* ViewController.swift */; };
@@ -65,6 +67,7 @@
 		5C78FAE02BDCCEEB00E8499C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		5C78FAE22BDCCF0200E8499C /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
 		5C78FAE42BDCCF1900E8499C /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
+		5C869ECC2C01C7BE007D9521 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CBACC612BB7D7F00025ACDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CBACC632BB7D7F00025ACDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 			files = (
 				5CC762D92BD2B4240096B32E /* SnapKit in Frameworks */,
 				5C78FAE82BDCCF5B00E8499C /* Then in Frameworks */,
+				5C869ECB2C01C78C007D9521 /* RxCocoa in Frameworks */,
 				5C78FAEB2BDCDE8A00E8499C /* Moya in Frameworks */,
 				5CC762DB2BD2B4240096B32E /* SnapKit-Dynamic in Frameworks */,
 			);
@@ -170,6 +174,7 @@
 				5CBACC6F2BB7D7F10025ACDA /* Info.plist */,
 				5CBACC752BB7E4AA0025ACDA /* LoginViewController.swift */,
 				5CBACC772BB7E91C0025ACDA /* WelcomeViewController.swift */,
+				5C869ECC2C01C7BE007D9521 /* File.swift */,
 			);
 			path = "SOPT-Seminar";
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				5CC762DA2BD2B4240096B32E /* SnapKit-Dynamic */,
 				5C78FAE72BDCCF5B00E8499C /* Then */,
 				5C78FAEA2BDCDE8A00E8499C /* Moya */,
+				5C869ECA2C01C78C007D9521 /* RxCocoa */,
 			);
 			productName = "SOPT-Seminar";
 			productReference = 5CBACC5E2BB7D7F00025ACDA /* SOPT-Seminar.app */;
@@ -242,6 +248,7 @@
 				5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				5C78FAE62BDCCF5B00E8499C /* XCRemoteSwiftPackageReference "Then" */,
 				5C78FAE92BDCDE8A00E8499C /* XCRemoteSwiftPackageReference "Moya" */,
+				5C869EC92C01C78C007D9521 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 5CBACC5F2BB7D7F00025ACDA /* Products */;
 			projectDirPath = "";
@@ -296,6 +303,7 @@
 				5C78FADB2BDCCE8A00E8499C /* SignUpResponseModel.swift in Sources */,
 				5C78FACB2BDBB3D900E8499C /* ChatModel.swift in Sources */,
 				5CBACC622BB7D7F00025ACDA /* AppDelegate.swift in Sources */,
+				5C869ECD2C01C7BE007D9521 /* File.swift in Sources */,
 				5C78FAE32BDCCF0200E8499C /* CheckUserInfoViewController.swift in Sources */,
 				5C78FAD92BDCCE6F00E8499C /* SignUpRequestModel.swift in Sources */,
 				5CC762D22BD27D0D0096B32E /* WelcomeViewController_Closure.swift in Sources */,
@@ -542,6 +550,14 @@
 				minimumVersion = 15.0.3;
 			};
 		};
+		5C869EC92C01C78C007D9521 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
 		5CC762D72BD2B4240096B32E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -562,6 +578,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5C78FAE92BDCDE8A00E8499C /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
+		};
+		5C869ECA2C01C78C007D9521 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C869EC92C01C78C007D9521 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 		5CC762D82BD2B4240096B32E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
