@@ -45,6 +45,8 @@ final class LoginViewController_Closure: UIViewController {
         button.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         return button
     }()
+    //Solid원칙에서 어긋난다.
+    //인터페이스보다 구현한 타입에 의존하고 있다.
     
     private func pushToWelcomeVC() {
         let welcomeViewController = WelcomeViewController_Closure()
